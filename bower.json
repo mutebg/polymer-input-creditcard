@@ -1,0 +1,11 @@
+{
+  "name": "input-creditcard",
+  "description": "CreditCard input with icon and number format",
+  "version": "0.0.1",
+  "authors": [
+	"Stoyan Delev <i@stoyandelev.com>"
+   ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.5.4"
+  }
+}
