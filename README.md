@@ -1,6 +1,6 @@
 # &lt;input-creditcard&gt;
 
-> Input CreditCard webcomponent, format your number and show the type of card 
+> Polymer CreditCard component which format your number and show the type of card 
 
 ## How-to
 ```html

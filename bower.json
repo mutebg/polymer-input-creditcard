@@ -7,5 +7,9 @@
    ],
   "dependencies": {
     "polymer": "Polymer/polymer#~0.5.4"
-  }
+  },
+  "main": "input-creditcard/input-creditcard.html",
+  "ignore": [
+    "bower_components/"
+  ]
 }
