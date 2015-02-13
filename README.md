@@ -4,6 +4,6 @@
 
 ## How-to
 ```html
-<input-creditcard value="4100111122223333"></input-creditcard>
+<input-creditcard value="4111 0000 2222 2331"></input-creditcard>
 ```
-![Example](src/assets/example.png)
+![Example](exanple.png)
