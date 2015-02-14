@@ -1,14 +1,65 @@
 # &lt;input-creditcard&gt;
 
-> Polymer CreditCard component which format your number and show the type of card 
+> CreditCard component which format your number and show the type of card using [Polymer](http://www.polymer-project.org/).
+
+
+## Example
+
+![Example](exanple.png)
 
 ## Install
-```html
-bower install polymer-input-creditcard
+
+Install the component using [Bower](http://bower.io/):
+
+```sh
+bower install polymer-input-creditcard --save
 ```
 
-## How-to
-```html
-<input-creditcard value="4111 0000 2222 2331"></input-creditcard>
-```
-![Example](exanple.png)
+Or [download as ZIP](https://github.com/mutebg/polymer-input-creditcard/archive/master.zip).
+
+## Usage
+
+1. Import Web Components' polyfill:
+
+    ```html
+    <script src="bower_components/webcomponentsjs/webcomponents.min.js"></script>
+    ```
+
+2. Import Custom Element:
+
+    ```html
+    <link rel="import" href="bower_components/input-creditcard/input-creditcard.html">
+    ```
+
+3. Start using it!
+
+    ```html
+    <input-creditcard></input-creditcard>
+    ```
+
+## Options
+
+Attribute       | Options       | Default       | Description
+---             | ---           | ---           | ---
+`name`          | *string*      | none          | Input name.
+`value`         | *string*      | none          | Input value.
+`placeholder`   | *string*      | none          | Input placeholder.
+`disabled`      | *boolean*     | false         | Disabled input.
+`readonly`      | *boolean*     | false         | Input is readonly.
+`required`      | *boolean*     | false         | Input is required.
+
+## Contributing
+
+1. Fork it!
+2. Create your feature branch: `git checkout -b my-new-feature`
+3. Commit your changes: `git commit -m 'Add some feature'`
+4. Push to the branch: `git push origin my-new-feature`
+5. Submit a pull request :D
+
+## History
+
+For detailed changelog, check [Releases](https://github.com/mutebg/polymer-input-creditcard/releases).
+
+## License
+
+[MIT License](http://opensource.org/licenses/MIT)
