@@ -1,15 +1,19 @@
 {
-  "name": "input-creditcard",
-  "description": "CreditCard input with icon and number format",
-  "version": "0.0.2",
-  "authors": [
-	"Stoyan Delev <i@stoyandelev.com>"
-   ],
-  "dependencies": {
-    "polymer": "Polymer/polymer#~0.5.4"
-  },
-  "main": "input-creditcard/input-creditcard.html",
-  "ignore": [
-    "bower_components/"
-  ]
+	"name": "input-creditcard",
+	"description": "CreditCard input with icon and number format",
+	"version": "0.0.2",
+	"keywords": [
+		"polymer",
+		"web-components"
+	],
+	"authors": [
+		"Stoyan Delev <i@stoyandelev.com>"
+	],
+	"dependencies": {
+		"polymer": "Polymer/polymer#~0.5.4"
+	},
+	"main": "input-creditcard/input-creditcard.html",
+	"ignore": [
+		"bower_components/"
+	]
 }

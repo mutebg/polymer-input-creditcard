@@ -36,7 +36,6 @@
 	});
 
 	function Card() {
-		var defaultFormat = /(\d{1,4})/g;
 		var cards = [
 		  {
 		    type: 'amex',
