@@ -10,9 +10,26 @@
 		input-creditcard {
 			border: 1px solid #ccc;
 		}
+
+		input-creditcard.invalid {
+			border-color: red;
+			color: red;
+		}
 	</style>
 </head>
 <body>
-	<input-creditcard placeholder="Enter your card number"></input-creditcard>	
+	<input-creditcard 
+		placeholder="Enter your card number" 
+		value="371449635398431" 
+		errorClassName="invalid">
+	</input-creditcard>	
+
+	
+	<script>
+	window.addEventListener('polymer-ready', function(e) {
+		var cc = document.getElementsByTagName('input-creditcard')[0];
+	});
+	</script>
+
 </body>
 </html>

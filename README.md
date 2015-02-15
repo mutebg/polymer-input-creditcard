@@ -2,6 +2,7 @@
 
 > CreditCard component which format your number and show the type of card using [Polymer](http://www.polymer-project.org/).
 
+> Supported cards: American Express, Maestro, JCB, Master Card, Visa, Diners Club, Discover, Dankort, Laser, UnionPay
 
 ## Example
 
@@ -47,6 +48,15 @@ Attribute       | Options       | Default       | Description
 `disabled`      | *boolean*     | false         | Disabled input.
 `readonly`      | *boolean*     | false         | Input is readonly.
 `required`      | *boolean*     | false         | Input is required.
+`valid`      	| *boolean*     | false         | Validate credit card number.
+`errorClassName`| *string*     	| error         | Default validate error class
+
+## Methods
+
+Method        	| Parameters   | Returns    | Description
+---           	| ---          | ---        | ---
+`isValid()`   	| None.        | *boolean* 	| Return true if credit card number is valid.
+`getCardType()`	| None.        | *string*   | Return type name of credit card.
 
 ## Contributing
 
