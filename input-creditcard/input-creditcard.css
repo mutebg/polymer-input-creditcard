@@ -1,0 +1,78 @@
+:host {
+	display: inline-block;
+	position: relative;
+	border-radius: 3px;
+	padding: 10px 64px 10px 10px;
+	min-width: 220px;
+}
+
+.input {
+	position: relative;
+	z-index: 1;
+	border: none;
+	background: none;
+	width: 100%;
+	line-height: 28px;
+	font-size: 20px;
+	box-sizing: border-box;
+	outline: none;
+	color: inherit;
+}
+
+.icon {
+	position: absolute;
+	right: 10px;
+	height: 28px;
+	width: 44px;
+	z-index: 2;
+	top: 50%;
+	transform: translateY(-50%);
+	background-repeat: no-repeat;
+	display: inline-block;
+	text-indent: -999em;
+	background-image: url('creditcards.png');
+	background-position: 0 -1000px;
+	border: 1px solid #F0F0F0;
+	border-radius: 2px;
+}
+
+
+.icon.amex {
+	background-position: 0 0;
+}
+
+.icon.maestro {
+	background-position: 0 -28px;
+}
+
+.icon.jcb {
+	background-position: 0 -56px;
+}
+
+.icon.mastercard {
+	background-position: 0 -84px;
+}
+
+.icon.visa {
+	background-position: 0 -112px;
+}
+
+.icon.dinersclub {
+	background-position: 0 -140px;
+}
+
+.icon.discover {
+	background-position: 0 -168px;
+}
+
+.icon.dankort {
+	background-position: 0 -196px;
+}
+
+.icon.laser {
+	background-position: 0 -224px;
+}
+
+.icon.unionpay {
+	background-position: 0 -252px;
+}
